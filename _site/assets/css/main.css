@@ -29,6 +29,15 @@ img{
 	vertical-align: middle;
 }
 
+blockquote{
+	background-color: lightgray;
+	font-size: 12px;
+}
+
+#quote{
+	background-color: white;
+}
+
 .center{
 	display:block;
 	margin-left: auto;

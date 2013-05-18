@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>The Git, The Hub, And The Ugly</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/assets/css/syntax.css">
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/flat-ui.css">
+        <link rel="stylesheet" href="/assets/css/bootstrap-responsive.css">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+    </head>
+
+    <body>
+      <div class='container-fluid'>
+       		<div class='row-fluid imgcenter'>
+          		<img src='/assets/images/profile.jpg' height='100' width='100' class='img-circle center' />
+       		</div>
+
+            <div class="row-fluid divmiddle">
+			<div class='navbar middle'>
+<a class="extra" href="/">home</a>|<a class="extra" href="/about.html">about</a>
+			</div>
+            </div>
+
+
+<div class='row-fluid'>
+	<div class='span2'></div>
+
+	<div class='span6'>
+		<h2>The Git, The Hub, And The Ugly</h2>
+		<p class="meta small">18 May 2013</p>
+
+		<div id="post">
+			<hr />
+<p>It&#8217;s funny how your opinion about things can change. I didn&#8217;t like GitHub when I first signed up for a few good reasons.</p>
+
+<ul>
+<li>It sucked on Windows</li>
+
+<li>There was no single good source about how to use GitHub on Linux Even the Github help pages weren&#8217;t that useful unless you manage to piecemeal it all together (which I eventually did). I must admit though, now that I know how to use GitHub on Linux, It&#8217;s amazing. It&#8217;s seriously one of the most useful tools that a software developer could use for version control and <em>forking</em> others code. I am a big fan of this open source movement. So in order to help all you wary travellers out there who want to become a part of this, let me blaze a single trail here where you can refer back to the basics of using the git command and GitHub.</li>
+</ul>
+
+<ol>
+<li>
+<p>Before we start make sure you have git installed. If your using a Debian based operating system (I&#8217;m using Mint which you can check out <a href='http://www.linuxmint.com/'>here</a>) it might already be installed. If not, the easiest way to do this is to type the following into the terminal.</p>
+
+<blockquote>
+<p>apt-get install git</p>
+</blockquote>
+
+<p>Then to configure it type</p>
+
+<blockquote>
+<p>git config &#8211;global user.name &#8221; <em>This is where you put your username</em> &#8221;</p>
+</blockquote>
+
+<p>and</p>
+
+<blockquote>
+<p>git config &#8211;global user.email &#8221; <em>This is where you put your email</em> &#8221;</p>
+</blockquote>
+
+<p>The first line installs git and the next two just config the settings to remember your name and email.</p>
+</li>
+
+<li>
+<p>Now is when we can actually go ahead and start using GitHub. Login and create a new repository.</p>
+</li>
+
+<li>
+<p>Once a new repository is created, clone that repository onto your computer by entering</p>
+
+<blockquote>
+<p>git clone https://This is the repository address</p>
+</blockquote>
+
+<p>into the terminal.</p>
+</li>
+
+<li>
+<p>CD into the repository</p>
+
+<blockquote>
+<p>cd ~/new repository</p>
+</blockquote>
+</li>
+
+<li>
+<p>Now you can add things to that directory from your project. Once new files are added to the directory and your ready to upload type</p>
+
+<blockquote>
+<p>git add .</p>
+</blockquote>
+
+<p>which will prepare GitHub for all the new files you&#8217;ve just added.</p>
+</li>
+
+<li>
+<p>Next you want to commit your updated directory, type</p>
+
+<blockquote>
+<p>git commit -m &#8220;Put whatever commit message you want here&#8221;</p>
+</blockquote>
+</li>
+
+<li>
+<p>Finally push ( <em>upload</em> ) the directory back to GitHub</p>
+
+<blockquote>
+<p>git push origin master</p>
+</blockquote>
+
+<p>If you&#8217;re pushing to a different branch (for example you&#8217;re using <a href='https://help.github.com/categories/20/articles'>pages</a>), then just type</p>
+
+<blockquote>
+<p>git push origin gh-pages or whatever your branch is</p>
+</blockquote>
+</li>
+</ol>
+
+<p>That&#8217;s really all you need to know to get started. So go get coding, you could even fork this blog from my github page (that&#8217;s like creating a new repository).</p>
+
+<h4 id='word_of_the_day_pithy'>Word of the day: <strong>pithy</strong></h4>
+
+<h4 id='quote_of_the_day'>Quote of the day:</h4>
+<blockquote id='quote'><p>“Either write something worth reading or do something worth writing.” -Benjamin Franklin</p></blockquote>
+		</div>
+	</div>
+	<div class='span2 well pull-left media'>
+		<h3>Related Posts</h3><br />
+
+  			
+
+     			 <a href="/college/personal/2013/05/16/Graduation.html">Graduation</a><p class='small'>&#8226;264</p>
+
+  			
+
+	</div>
+	<div class='span2'></div>
+</div>
+
+
+			<div class="footer">
+                <p class='muted'>
+                  Matt Sheehan<br />
+                  Software Developer/Commentator<br />
+                  sheehamj@mountunion.edu
+                </p>
+                <p>
+                  <a href="http://github.com/sheehamj13/" target='_blank'>GitHub</a><br />
+                  <a href="http://facebook.com/matt.sheehan.31/" target='_blank'>Facebook</a><br />
+                </p>
+            </div>
+        </div> <!-- /container -->
+
+    </body>
+</html>
+
