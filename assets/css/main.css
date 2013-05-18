@@ -30,12 +30,14 @@ img{
 }
 
 blockquote{
-	background-color: lightgray;
+	background-color: #2C3E50;
+	color: white;
 	font-size: 12px;
 }
 
 #quote{
 	background-color: white;
+	color: gray;
 }
 
 .center{
