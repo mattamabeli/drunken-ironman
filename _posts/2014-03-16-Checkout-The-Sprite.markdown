@@ -7,19 +7,15 @@ categories: css fun
 
 ----------
 
-Checkout this new sprite
-
-<div class="megaman animated head" width='100px' height='205px'></div>
-
+Checkout this new sprite at the bottom of every page.
 
 Pretty cool huh? 
 What? It's not?
 
-Oh well it's fun.
+Oh well it was fun.
 
 
-All credit belongs to this site
-
+There's a nice tutorial at this site.
 
 <a href="http://bryanbraun.com/2014/03/15/how-i-rebuilt-flying-toasters-using-only-css-animations">bryanbaun.com</a>
 
