@@ -142,8 +142,8 @@ em {
 .megaman 
 {
 	background: url(../images/megamanwalking.png) no-repeat;
-	width: 50x;
-	height: 200px;
+	width: 205x;
+	height: 205px;
 }
 
 
@@ -157,21 +157,21 @@ em {
 
 @-webkit-keyframes walk {
   from { background-position:  0%; }
-  to { background-position: -50px; }
+  to { background-position: -387px; }
 }
 @-moz-keyframes walk {
   from { background-position:  0px; }
-  to { background-position: -50px; }
+  to { background-position: -387px; }
 }
 @-ms-keyframes walk {
   from { background-position:  0px; }
-  to { background-position: -50px; }
+  to { background-position: -387px; }
 }
 @-o-keyframes walk {
   from { background-position:  0px; }
-  to { background-position: -50px; }
+  to { background-position: -387px; }
 }
 @keyframes walk {
   from { background-position:  0px; }
-  to { background-position: -50px; }
+  to { background-position: -387px; }
 }
