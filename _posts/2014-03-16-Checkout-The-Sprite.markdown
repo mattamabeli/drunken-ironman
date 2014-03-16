@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Graduation"
+title:  "Checkout The Sprite"
 date:   2014-03-16 0:04:28
 categories: css fun
 ---
@@ -9,7 +9,7 @@ categories: css fun
 
 Checkout this new sprite
 
-<div class="megaman animated head"></div>
+<div class="megaman animated head" width='100px' height='205px'></div>
 
 
 Pretty cool huh? 
