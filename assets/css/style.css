@@ -142,17 +142,17 @@ em {
 .megaman 
 {
 	background: url(../images/megamanwalking.png) no-repeat;
-	width: 105px;
+	width: 100px;
 	height: 205px;
 }
 
 
 .animated {
-  -webkit-animation: walk .4s steps(4) infinite alternate;
-  -moz-animation: walk .4s steps(4) infinite alternate;
-  -ms-animation: walk .4s steps(4) infinite alternate;
-  -o-animation: walk .4s steps(4) infinite alternate;
-  animation: walk .4s steps(4) infinite alternate;
+  -webkit-animation: walk .4s steps(4) infinite;
+  -moz-animation: walk .4s steps(4) infinite;
+  -ms-animation: walk .4s steps(4) infinite;
+  -o-animation: walk .4s steps(4) infinite;
+  animation: walk .4s steps(4) infinite;
 }
 
 @-webkit-keyframes walk {
