@@ -67,7 +67,42 @@ img{
 }
 
 
+.megaman 
+{
+	background: url(../images/megamanwalking.png) no-repeat;
+	width: 64px;
+	height: 64px;
+}
 
+
+.animated {
+  -webkit-animation: walk .4s steps(4) infinite alternate;
+  -moz-animation: walk .4s steps(4) infinite alternate;
+  -ms-animation: walk .4s steps(4) infinite alternate;
+  -o-animation: walk .4s steps(4) infinite alternate;
+  animation: walk .4s steps(4) infinite alternate;
+}
+
+@-webkit-keyframes walk {
+  from { background-position:  0%; }
+  to { background-position: -256px; }
+}
+@-moz-keyframes walk {
+  from { background-position:  0px; }
+  to { background-position: -256px; }
+}
+@-ms-keyframes walk {
+  from { background-position:  0px; }
+  to { background-position: -256px; }
+}
+@-o-keyframes walk {
+  from { background-position:  0px; }
+  to { background-position: -256px; }
+}
+@keyframes walk {
+  from { background-position:  0px; }
+  to { background-position: -256px; }
+}
 
 
 

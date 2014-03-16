@@ -21,7 +21,11 @@ Over the four years I did make a few observations:
 ####Word of the day: __autodidact__
 
 ####Quote of the day:####
+<<<<<<< HEAD
 >“There are downsides to everything; there are unintended consequences to everything. The most corrosive piece of technology that I’ve ever seen is called television — but then, again, television, at its best, is magnificent.” -Steve Jobs
+=======
+<blockquote id='quote'><p>“There are downsides to everything; there are unintended consequences to everything. The most corrosive piece of technology that I’ve ever seen is called television — but then, again, television, at its best, is magnificent.” -Steve Jobs</p></blockquote>
+>>>>>>> 79479ebe4dc8a90210124b6cc73ed3376109e4b0
 
 
 
