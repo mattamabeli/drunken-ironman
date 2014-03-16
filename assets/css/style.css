@@ -148,11 +148,11 @@ em {
 
 
 .animated {
-  -webkit-animation: walk .4s steps(4) infinite;
-  -moz-animation: walk .4s steps(4) infinite;
-  -ms-animation: walk .4s steps(4) infinite;
-  -o-animation: walk .4s steps(4) infinite;
-  animation: walk .4s steps(4) infinite;
+  -webkit-animation: walk .8s steps(4) infinite;
+  -moz-animation: walk .8s steps(4) infinite;
+  -ms-animation: walk .8s steps(4) infinite;
+  -o-animation: walk .8s steps(4) infinite;
+  animation: walk .8s steps(4) infinite;
 }
 
 @-webkit-keyframes walk {
