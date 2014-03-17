@@ -138,6 +138,11 @@ em {
     margin-bottom: 2rem;
 }
 
+    .relatedposts:last-of-type 
+    {
+        border-bottom: none;
+    }
+
 /*.circular {
 	width: 150px;
 	height: 150px;
