@@ -117,12 +117,25 @@ em {
 	font-size: 12px;
 }*/
 
-.posts{
+.posts
+{
 	list-style-type: none;
 	max-width: 90%;
     margin: 2rem auto 3rem;
     text-align: center;
     letter-spacing: 1px;
+}
+
+
+.relatedposts 
+{
+    border-bottom: 1px solid #555;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    padding: .4rem .6rem;
+    display: inline-block;
+    margin-bottom: 2rem;
 }
 
 /*.circular {
