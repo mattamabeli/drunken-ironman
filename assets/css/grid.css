@@ -191,6 +191,30 @@ section
     }
 
 
+.row 
+{
+    /*background: rgba(225,255,255,0.1);*/
+    border: 2px solid rgba(255,255,255,0.2);
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 40rem) 
+{
+    .row 
+    {
+        padding: 1rem 0 0 0;
+    }
+}
+
+
+    .row:last-of-type 
+    {
+        margin-bottom: 0;
+    }
+
+
+
 
 
 
