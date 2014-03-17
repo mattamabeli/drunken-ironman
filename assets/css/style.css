@@ -1,10 +1,10 @@
 
 .posts
 {
-	list-style-type: none;
+	/*list-style-type: none;*/
     margin-bottom: 3rem;
     text-align: center;
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
 }
 
     .posts:last-of-type 
