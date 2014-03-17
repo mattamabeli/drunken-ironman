@@ -1,4 +1,4 @@
-html, body, div, span, applet,
+/*html, body, div, span, applet,
 object, iframe, h1, h2, h3, h4,
 h5, h6, p, blockquote, pre, a,
 abbr, acronym, address, big, cite,
@@ -115,17 +115,17 @@ em {
 
 .small{
 	font-size: 12px;
-}
+}*/
 
 .posts{
 	list-style-type: none;
 	max-width: 90%;
-    margin: 2em auto 3em;
+    margin: 2rem auto 3rem;
     text-align: center;
     letter-spacing: 1px;
 }
 
-.circular {
+/*.circular {
 	width: 150px;
 	height: 150px;
 	border-radius: 150px;
@@ -137,7 +137,7 @@ em {
 .circular img {
 	opacity: 0;
 	filter: alpha(opacity=0);
-	}
+	}*/
 
 
 .megaman 
