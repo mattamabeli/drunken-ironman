@@ -109,8 +109,31 @@ header a
 
 
 
+/************************************** Section ***************************************/
+
+section 
+{
+    border-top: 1px solid #eee;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+    section:first-of-type 
+    {
+        border-top: none;
+    }
+
+@media (min-width: 40rem) 
+{
+    section 
+    {
+        padding: 4rem 0;
+    }
+}
 
 
+
+/******************************************* Grid ****************************************/
 
 /* Parent container */
 .container 
@@ -124,9 +147,18 @@ header a
 /* Columns */
 .column 
 {
-     float: left;
-     padding-left: 1rem;
-     padding-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 40rem) 
+{
+    .column 
+    {
+        float: left;
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
 
     .column.full 
@@ -158,6 +190,10 @@ header a
     {
         float: right;
     }
+
+
+
+
 
 
 .clearfix:before, .clearfix:after
