@@ -2,11 +2,15 @@
 .posts
 {
 	list-style-type: none;
-	max-width: 90%;
-    margin: 2rem auto 3rem;
+    margin: 2rem 0rem 3rem 1rem;
     text-align: center;
     letter-spacing: 1px;
 }
+
+    .posts:last-of-type 
+    {
+        margin-bottom: 0;
+    }
 
 
 .relatedposts 
