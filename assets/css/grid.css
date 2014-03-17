@@ -137,7 +137,7 @@ section
 /* Parent container */
 .container 
 {
-    margin: 0, auto;
+    margin: 0 auto;
     max-width: 53rem;
     width: 90%;
 }
@@ -191,6 +191,7 @@ section
     }
 
 
+/* Rows */
 .row 
 {
     /*background: rgba(225,255,255,0.1);*/
