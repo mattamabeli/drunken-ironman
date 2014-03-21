@@ -30,6 +30,12 @@
     }
 
 
+.italic 
+{
+    font-style: italic;
+}
+
+
 /*.circular {
 	width: 150px;
 	height: 150px;
@@ -43,7 +49,11 @@
 	opacity: 0;
 	filter: alpha(opacity=0);
 	}*/
+ 
 
+
+
+/****************************************Animations***********************************/
 
 .megaman 
 {
