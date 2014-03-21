@@ -11,19 +11,23 @@
 <section>
     <div class="container posts">
 
-        <p class="column">Related Posts</p>
-        
-        <ul>
+        <div class="column">
+            <p>Related Posts</p>
+        </div>
 
-            {% for post in site.related_posts%}
+        <div class="column">
+            <ul>
 
-            <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
+                {% for post in site.related_posts%}
 
-            {% endfor %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
 
-        </ul>
+                {% endfor %}
+
+            </ul>
+        </div>
 
     </div>
 </section>
