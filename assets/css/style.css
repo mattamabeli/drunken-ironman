@@ -9,8 +9,14 @@ a
     transition-duration: 0.2s;
     transition-timing-function: ease;
 }
+    a:hover 
+    {
+        color: #222;
+        background: #D6EDFF;
+        text-shadow: none;
+    }
 
-    ::selection 
+    a::selection 
     {
         color: #222;
         background: #D6EDFF;
