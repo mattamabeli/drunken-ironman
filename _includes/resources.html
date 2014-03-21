@@ -1,5 +1,5 @@
 ﻿<section>
-    <div class="container">
+    <div class="container post">
 
         <h4 class="row clearfix">Written by Matt Sheehan</h4>
         <p>Capitalist, camping enthusiast, and tasteless programmer.</p>
@@ -9,19 +9,25 @@
 </section>
 
 <section>
-    <div class="container">
+    <div class="container post">
 
         <p class="row clearfix">Related Posts</p>
         
         <div class="row clearfix">
 
-            {% for post in site.related_posts%}
+            <ul>
 
-            <div class="row clearfix">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </div>
+                {% for post in site.related_posts%}
 
-            {% endfor %}
+                <li>
+                    <div class="row clearfix">
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                    </div>
+                </li>
+
+                {% endfor %}
+
+            </ul>
 
         </div> 
 
