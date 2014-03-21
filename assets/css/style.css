@@ -2,15 +2,17 @@
 .posts
 {
 	/*list-style-type: none;*/
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     text-align: left;
     /*letter-spacing: 1px;*/
 }
 
-    .posts:last-of-type 
-    {
-        margin-bottom: 0;
-    }
+
+.list 
+{
+    margin-bottom: 3rem;
+    text-align: center;
+}
 
 
 .relatedposts 
