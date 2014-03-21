@@ -9,25 +9,21 @@
 </section>
 
 <section>
-    <div class="container">
+    <div class="container posts">
 
-        <p class="row clearfix">Related Posts</p>
+        <p class="column">Related Posts</p>
         
-        <div class="row clearfix">
+        <ul>
 
-            <ul>
+            {% for post in site.related_posts%}
 
-                {% for post in site.related_posts%}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
 
-                <li>
-                    <a href="{{ post.url }}">{{ post.title }}</a>
-                </li>
+            {% endfor %}
 
-                {% endfor %}
-
-            </ul>
-
-        </div> 
+        </ul>
 
     </div>
 </section>
