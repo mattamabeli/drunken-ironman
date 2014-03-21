@@ -44,15 +44,13 @@
 
     .author h4 
     {
-        font-size: 1.8rem;
         margin: 0;
     }
 
     .author p 
     {
         margin: 1rem 0;
-        font-size: 1.7rem;
-        line-height: 1.6em;
+        line-height: .6em;
         font-style: italic;
         color: #BBC7CC;
     }
