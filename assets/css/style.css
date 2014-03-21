@@ -1,5 +1,5 @@
 
-a 
+section a 
 {
     color: #57A3E8;
     text-decoration: none;
@@ -9,14 +9,14 @@ a
     transition-duration: 0.2s;
     transition-timing-function: ease;
 }
-    a:hover 
+    section a:hover 
     {
         color: #222;
         background: #D6EDFF;
         text-shadow: none;
     }
 
-    a::selection 
+    section a::selection 
     {
         color: #222;
         background: #D6EDFF;
