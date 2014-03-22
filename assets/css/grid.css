@@ -342,7 +342,7 @@ blockquote
     }
 
 
-.circle 
+.circlebutton
 {
     border: 3px solid #497bad;
     -moz-border-radius: 50%;
@@ -356,6 +356,9 @@ blockquote
     line-height: 1.7rem;
     margin: 0 auto 1rem auto;
     text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
 
     -webkit-transition: border-color ease 0.5s;
     -moz-transition: border-color ease 0.5s;
@@ -363,16 +366,13 @@ blockquote
 
 }
 
-    .circle:hover 
+    .circlebutton:hover 
     {
         border-color: #57A3E8;
+        font-size: 1rem;
+        font-weight: 600;
     }
 
-
-    .circle.button 
-    {
-        text-decoration: none;
-    }
 
 
 
