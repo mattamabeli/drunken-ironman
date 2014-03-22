@@ -18,19 +18,23 @@
         </div>
 
 
-        {% if paginator.previous_page_path %}
+        <div class="column full">
 
-        <a href="{{ paginator.previous_page_path }}" class="circle">&#8592;</a>
+            {% if paginator.previous_page_path %}
 
-        {% endif %}
+            <a href="{{ paginator.previous_page_path }}" class="circle">&#8592;</a>
+
+            {% endif %}
 
 
 
-        {%if paginator.next_page_path %}
+            {%if paginator.next_page_path %}
 
-        <a href="{{ paginator.next_page_path }}" class="circle">&#8594;</a>
+            <a href="{{ paginator.next_page_path }}" class="circle">&#8594;</a>
 
-        {% endif %}
+            {% endif %}
+
+        </div>
 
 
     </div>
