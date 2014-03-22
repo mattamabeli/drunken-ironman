@@ -1,2 +1,4 @@
 name: The Web Home of Matt Sheehan
 pygments: true
+paginate: 1
+paginate_path: "blog/page:num"
