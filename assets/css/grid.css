@@ -346,14 +346,30 @@ blockquote
     -webkit-border-radius: 50%;
     border-radius: 50%;
     color: #555;
-    display: block;
+    display: inline-block;
     font-weight: 600;
     height: 3.2rem;
     width: 3.2rem;
     line-height: 1.7rem;
     margin: 0 auto 1rem auto;
     text-align: center;
+
+    -webkit-transition: background ease 0.2s;
+    -moz-transition: background ease 0.2s;
+    transition: background ease 0.2s;
+
+    -webkit-transition: color ease 0.2s;
+    -moz-transition: color ease 0.2s;
+    transition: color ease 0.2s;
 }
+
+    .circle:hover 
+    {
+        background: #497bad;
+        color: #fff;
+    }
+
+
 
 
 
