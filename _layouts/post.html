@@ -5,7 +5,7 @@
 
         <div class="row clearfix">
 
-            <div class="column two-thirds">
+            <div class="column full">
 
                 <h2>{{ page.title }}</h2>
 
@@ -13,7 +13,12 @@
                     {{ content }}
                 </div>
 
-                <p>{{ page.date | date_to_string }}</p>
+                <div class="column full">
+                    <h4>Published</h4>
+                </div>
+                <div class="column full">
+                    <p>{{ page.date | date_to_string }}</p>
+                </div>
 
             </div>
 
