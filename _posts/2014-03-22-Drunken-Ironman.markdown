@@ -20,6 +20,6 @@ I'm starting to learn the in's and out's of Jekyll as well. But I don't love it.
 
 3. I like that Jekyll uses liquid html templating. Ghost also uses something similiar. Ok fine we'll call this one a draw.
 
-4. Even Jeff Atwood of <a href="http://blog.codinghorror.com/" target=_blank>Coding Horror</a> has switched his blog to Ghost. By the way, Jeff Atwood is the guy who made Stack Exchange.
+4. Even Jeff Atwood of <a href="http://blog.codinghorror.com" target='_blank'>Coding Horror</a> has switched his blog to Ghost. By the way, Jeff Atwood is the guy who made Stack Exchange.
 
 So there that's it. Mattsheehan is going to stay my bloggin platform, one way or another. If you ever check out Bitwhisp, that's cool as well, but I don't have the blogging stamina to manage two similar sites.
