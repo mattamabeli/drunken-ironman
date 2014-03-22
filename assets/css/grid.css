@@ -134,6 +134,34 @@ section
 
 /******************************************* Grid ****************************************/
 
+
+.grid 
+{
+    text-align: center;
+}
+
+    .grid.container 
+    {
+        border: 2px;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+@media (min-width: 40rem) 
+{
+    .grid.container 
+    {
+        padding: 1rem 0 0 0;
+    }
+}
+
+    .grid.column 
+    {
+        margin-bottom: 1rem;
+    }
+
+
+
+
 /* Parent container */
 .container 
 {

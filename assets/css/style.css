@@ -4,15 +4,14 @@ section a
     color: #57A3E8;
     text-decoration: none;
     transition: color ease 0.2s;
-    transition-property: color;
+    /*transition-property: color;
     transition-delay: initial;
     transition-duration: 0.2s;
-    transition-timing-function: ease;
+    transition-timing-function: ease;*/
 }
     section a:hover 
     {
         color: #222;
-        /*background: #D6EDFF;*/
         text-shadow: none;
     }
 
