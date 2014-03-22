@@ -344,20 +344,22 @@ blockquote
 
 .circlebutton
 {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
     border: 3px solid #497bad;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     color: #555;
     display: inline-block;
-    font-weight: 600;
     height: 3.2rem;
     width: 3.2rem;
     line-height: 1.7rem;
     margin: 0 auto 1rem auto;
     text-align: center;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
 
     -webkit-transition: border-color ease 0.5s;
