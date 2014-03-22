@@ -16,7 +16,7 @@ section a
         text-shadow: none;
     }
 
-    section selection 
+    section::selection 
     {
         color: #222;
         background: #D6EDFF;
