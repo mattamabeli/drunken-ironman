@@ -18,7 +18,7 @@
 
         {% if paginator.previous_page_path %}
 
-        <a href="{{ paginator.previous_page_path }}">Previous</a>
+        <a href="{{ paginator.previous_page_path }}" class="button">Previous</a>
 
         {% endif %}
 
@@ -26,7 +26,7 @@
 
         {%if paginator.next_page_path %}
 
-        <a href="{{ paginator.next_page_path }}">Next</a>
+        <a href="{{ paginator.next_page_path }}" class="button">Next</a>
 
         {% endif %}
 
