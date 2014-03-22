@@ -331,12 +331,6 @@ blockquote
     {
         background: #5183b6;
         text-decoration: none;
-        color: #fff;
-    }
-
-    .button::selection 
-    {
-        color: #fff;
     }
 
 

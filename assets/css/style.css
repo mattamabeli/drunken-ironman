@@ -29,6 +29,11 @@
         text-shadow: none;
     }
 
+    .container::selection 
+    {
+        color: #222;
+    }
+
 
 .posts
 {
