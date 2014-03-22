@@ -11,8 +11,6 @@ I recently graduated college. But it's a funny thing not being a student anymore
 *avoiding TV 
 *and keeping hobbies.
 
-[end]
-
 I'm ready to start a job and get a real income. I've had enough textbook.
 
 Over the four years I did make a few observations:
