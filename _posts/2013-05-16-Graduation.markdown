@@ -5,7 +5,6 @@ date:   2013-05-16 0:09:15
 categories: college personal
 ---
 
-----------
 
 I recently graduated college. But it's a funny thing not being a student anymore and I don't mean bad funny. It feels good. Almost like I'm ready to contribute something to the world. Almost. If you think about it, I'm 22 years old and I haven't contributed nothing to society, all I've ever been is a consumer. A consumer of education (that's not necessarily a bad thing), a consumer of other people's money, and a consumer of other people's creations. I try not to consume too much though by 
 *avoiding TV 

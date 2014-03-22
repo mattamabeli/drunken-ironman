@@ -5,7 +5,6 @@ date:   2014-03-16 0:04:28
 categories: css fun
 ---
 
-----------
 
 Checkout the new sprite add to the bottom of every page.
 

@@ -5,7 +5,6 @@ date:   2013-05-18 0:18:15
 categories: tech how-to
 ---
 
-----------
 
 It's funny how your opinion about things can change. I didn't like GitHub when I first signed up for a few good reasons.
 * It sucked on Windows.
@@ -41,4 +40,7 @@ That's really all you need to know to get started. So go get coding, you could e
 ####Word of the day: __pithy__
 
 ####Quote of the day:####
-<blockquote id='quote'><p>“Either write something worth reading or do something worth writing.” -Benjamin Franklin</p></blockquote>
+<blockquote>
+	<p>“Either write something worth reading or do something worth writing.”</p>
+	<cite>-Benjamin Franklin</cite>
+</blockquote>

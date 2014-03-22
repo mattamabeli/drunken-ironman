@@ -8,17 +8,38 @@
             <div class="column full">
 
                 <h2>{{ page.title }}</h2>
+                
+                <hr />
+
 
                 <div class="posts">
                     {{ content }}
                 </div>
 
-                <div class="column full">
+
+                <hr />
+
+                <div class="row">
+                    <div class="column full">
+                        <p>{{ page.date | date_to_string }}</p>
+                    </div>
+
+                    <div class="column full">
+                        <h4>Written and Published by Matt Sheehan</h4>
+                    </div>
+
+                    <div class="column full">
+                        <p>Capitalist, camping enthusiast, and tasteless programmer.</p>
+                        <p class="italic">Warning: I am clueless about what I'm talking about</p>
+                    </div>
+                </div>
+
+                <!--<div class="column full">
                     <h4>Published</h4>
                 </div>
                 <div class="column full">
                     <p>{{ page.date | date_to_string }}</p>
-                </div>
+                </div>-->
 
             </div>
 

@@ -5,7 +5,6 @@ date:   2013-05-25 0:18:15
 categories: tech work
 ---
 
-----------
 
 After my first week of having a _real_ job, this is what I've learned.
 
@@ -18,4 +17,7 @@ After my first week of having a _real_ job, this is what I've learned.
 ####Word of the day: __effete__
 
 ####Quote of the day:####
-<blockquote id='quote'><p>"If I had asked my customers what they wanted they would have said a faster horse" -credited to Henry Ford (on the usefulness of R &amp; D)</p></blockquote>
+<blockquote>
+	<p>"If I had asked my customers what they wanted they would have said a faster horse"</p>
+	<cite>-credited to Henry Ford (on the usefulness of R &amp; D)</cite>
+</blockquote>
