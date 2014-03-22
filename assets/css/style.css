@@ -67,14 +67,16 @@ section a
 
 .author 
 {
-    position: relative;
-    text-align: left;
+    margin: 0;
+
+    /*position: relative;
+    text-align: left;*/
 }
 
-    .author h4 
+    /*.author h4 
     {
         margin: 0;
-    }
+    }*/
 
     .author p 
     {
