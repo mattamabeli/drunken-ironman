@@ -160,6 +160,15 @@ section
     }
 
 
+    .grid span 
+    {
+        display: block;
+        padding: 1rem;
+        font-size: 0.9rem;
+        color: #BBC7CC;
+    }
+
+
 
 
 /* Parent container */
