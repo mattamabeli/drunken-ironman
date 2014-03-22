@@ -3,7 +3,7 @@
 <section class="grid">
     <div class="container">
 
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
 
         <div class="container list">
             <a href="{{ post.url }}">{{ post.title }}</a><br />
