@@ -1,5 +1,5 @@
 
-.container a 
+.row a 
 {
     color: #57A3E8;
     text-decoration: none;
@@ -9,27 +9,27 @@
     transition: color ease 0.2s;
 }
 
-    .container a:hover 
+    .row a:hover 
     {
         color: #222;
         text-shadow: none;
     }
 
-    .container a::selection 
+    .row a::selection 
     {
         color: #222;
         background: #D6EDFF;
         text-shadow: none;
     }
     
-    .container p::selection 
+    .row p::selection 
     {
         color: #222;
         background: #D6EDFF;
         text-shadow: none;
     }
 
-    .container::selection 
+    .row::selection 
     {
         color: #222;
     }
