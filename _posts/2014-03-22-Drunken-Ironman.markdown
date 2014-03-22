@@ -6,7 +6,9 @@ categories: journal
 ---
 
 
-When I first created this blog over a year ago, I wanted something quick, dirty, and free (QDAF). So Jekyll hosted on GitHub with the shell of bootstrap it was. And since that first year this blog went on to become one of the top 150 sites in the country. Well...not exactly. What actually happened is I posted a few times and never touched this thing again. I'll admit, not a great start. But then something happened. Something that I promised myself would never happen again. I forked this blogs repository from Github after seeing a post about how to make sprites in css that I wanted to try out. After I created my sprite I kept messing around until I hooked myself into revamping mattsheehan.
+When I first created this blog over a year ago, I wanted something quick, dirty, and free (QDAF). So Jekyll hosted on GitHub with the shell of bootstrap it was. In my rush, I hastenly clicked create random repository name on Github which landed me with drunken-ironman. I rolled with it because I was in a rush, but since then creating random repository names or codenames for my repositories has kind of become my thing. 
+
+Since that first year of this blog, it went on to become one of the top 150 sites in the country. Well...not exactly. What actually happened is I posted a few times and never touched this thing again. I'll admit, not a great start. But then something happened. Something that I promised myself would never happen again. I forked this blogs repository from Github after seeing a post about how to make sprites in css that I wanted to try out. After I created my sprite I kept messing around until I hooked myself into revamping mattsheehan.
 
 The revamping started with creating a css grid framework, which the beginnings of are used on this site and will soon be an independent repository on Github. I wanted something like bootstrap or any of the other hundreds of grid frameworks but without all the weight. Something light, portable, can be built from as a starting point for other sites. The framework's no where near where I want it to be, but it's a better start than before.
 
