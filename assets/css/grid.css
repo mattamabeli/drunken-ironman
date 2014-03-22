@@ -354,13 +354,14 @@ blockquote
     margin: 0 auto 1rem auto;
     text-align: center;
 
-    -webkit-transition: background ease 0.2s;
-    -moz-transition: background ease 0.2s;
-    transition: background ease 0.2s;
+    -webkit-transition: background ease 0.5s;
+    -moz-transition: background ease 0.5s;
+    transition: background ease 0.5s;
 
-    -webkit-transition: color ease 0.2s;
-    -moz-transition: color ease 0.2s;
-    transition: color ease 0.2s;
+    -webkit-transition: color ease 0.5s;
+    -moz-transition: color ease 0.5s;
+    transition: color ease 0.5s;
+
 }
 
     .circle:hover 
