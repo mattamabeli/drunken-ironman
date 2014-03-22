@@ -1,5 +1,5 @@
 
-section a 
+.container a 
 {
     color: #57A3E8;
     text-decoration: none;
@@ -9,20 +9,20 @@ section a
     transition: color ease 0.2s;
 }
 
-    section a:hover 
+    .container a:hover 
     {
         color: #222;
         text-shadow: none;
     }
 
-    section a::selection 
+    .container a::selection 
     {
         color: #222;
         background: #D6EDFF;
         text-shadow: none;
     }
     
-    section p::selection 
+    .container p::selection 
     {
         color: #222;
         background: #D6EDFF;
