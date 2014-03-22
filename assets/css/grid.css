@@ -318,9 +318,9 @@ blockquote
     white-space: nowrap;
     text-decoration: none;
     
-    -webkit-transition: color ease 0.2s;
-    -moz-transition: color ease 0.2s;
-    transition: color ease 0.2s;
+    -webkit-transition: background ease 0.2s;
+    -moz-transition: background ease 0.2s;
+    transition: background ease 0.2s;
 }
 
 @media (min-width: 40rem) 
@@ -334,7 +334,7 @@ blockquote
 
     .button:hover 
     {
-        background: #5183b6;
+        background: #57A3E8;
         text-decoration: none;
     }
 
