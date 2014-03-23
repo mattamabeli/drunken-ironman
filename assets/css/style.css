@@ -88,7 +88,7 @@
     .author p 
     {
         margin: 1rem 0;
-        line-height: .6em;
+        /*line-height: em;*/
         font-style: italic;
         color: #BBC7CC;
     }
