@@ -100,7 +100,7 @@
 
 .right-arrow 
 {
-    background: url(.../images/arrow.svg) no-repeat;
+    background: url(../images/arrow.svg) no-repeat;
     background-size: contain;
     width: 2.5rem;
     height: 2.5rem;
