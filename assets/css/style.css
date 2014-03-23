@@ -100,12 +100,20 @@
 
 .right-arrow 
 {
-    background: url(../images/arrow.svg) no-repeat;
+    background: url(../images/right_arrow.svg) no-repeat;
     background-size: contain;
     width: 2.5rem;
     height: 2.5rem;
 }
 
+
+.left-arrow 
+{
+    background: url(../images/left_arrow.svg) no-repeat;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+}
 
 
 
