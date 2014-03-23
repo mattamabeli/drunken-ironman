@@ -6,7 +6,7 @@ categories: journal
 ---
 
 
-I spend a lot of time at my computer and people like me also spend a lot of time at their computers. So I've been thinking a lot about my ~~setup~~ Battle Station and how I work.
+I spend a lot of time at my computer and people like me also spend a lot of time at their computers. So I've been thinking a lot about my <del>setup</del> Battle Station and how I work.
 
 The most important part of your setup is not your computer, it's your monitor(s). Think about it, your computer is useless without some screen. And so a good screen is more than worth it. I use a 27" AOC monitor hooked up to my laptop that provides me with maximum screen real estate. It's big, it's clear, it's colorful, and I wish I had two (three?) of them.
 
