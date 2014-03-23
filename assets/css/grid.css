@@ -301,21 +301,29 @@ blockquote
 
 /******************************************** Buttons **************************************/
 
+
 .button 
 {
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background-color: #497bad;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
     border: none;
     color: #fff;
     cursor: pointer;
     display: block;
     font-size: 1rem;
     font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.button 
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #497bad;
     padding: 0.7rem 1.5rem;
     vertical-align: middle;
     white-space: nowrap;
@@ -326,41 +334,54 @@ blockquote
     transition: background ease 0.2s;
 }
 
-@media (min-width: 40rem) 
-{
-    .button 
+    @media (min-width: 40rem) 
     {
-        display: inline-block;
-        font-size: 0.9rem;
+        .button 
+        {
+            display: inline-block;
+            font-size: 0.9rem;
+        }
     }
-}
 
     .button:hover 
     {
-        background: #5183b6;
         text-decoration: none;
     }
 
 
-.circlebutton
+.button.rectangle 
 {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #497bad;
+    padding: 0.7rem 1.5rem;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-decoration: none;
+    
+    -webkit-transition: background ease 0.2s;
+    -moz-transition: background ease 0.2s;
+    transition: background ease 0.2s;
+}
+
+
+    .button.rectangle:hover 
+    {
+        background: #5183b6;
+    }
+
+
+.button.circle
+{
     border: 3px solid #497bad;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    color: #555;
-    display: inline-block;
     height: 3.2rem;
     width: 3.2rem;
     line-height: 1.7rem;
     margin: 0 auto 1rem auto;
-    text-align: center;
-    text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
 
     -webkit-transition: border-color ease 0.5s;
     -moz-transition: border-color ease 0.5s;
@@ -368,7 +389,7 @@ blockquote
 
 }
 
-    .circlebutton:hover 
+    .button.circle:hover 
     {
         border-color: #57A3E8;
     }

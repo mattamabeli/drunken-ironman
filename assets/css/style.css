@@ -75,22 +75,22 @@
 .author 
 {
     margin: 0;
-
-    /*position: relative;
-    text-align: left;*/
 }
-
-    /*.author h4 
-    {
-        margin: 0;
-    }*/
 
     .author p 
     {
         margin: 1rem 0;
-        /*line-height: em;*/
+        line-height: 1rem;
         font-style: italic;
         color: #BBC7CC;
+    }
+
+    @media (min-width: 40rem) 
+    {
+        .author p 
+        {
+            line-height: 0.6rem;
+        }
     }
 
 
