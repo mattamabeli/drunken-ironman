@@ -3,6 +3,7 @@ layout: post
 title:  "Checkout The Sprite"
 date:   2014-03-16 0:04:28
 categories: css fun
+author: Matt Sheehan
 ---
 
 

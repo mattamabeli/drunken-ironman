@@ -1,5 +1,5 @@
 
-.row a 
+a 
 {
     color: #57A3E8;
     text-decoration: none;
@@ -9,27 +9,27 @@
     transition: color ease 0.2s;
 }
 
-    .row a:hover 
+    a:hover 
     {
         color: #222;
         text-shadow: none;
     }
 
-    .row a::selection 
+    a::selection 
     {
         color: #222;
         background: #D6EDFF;
         text-shadow: none;
     }
     
-    .row p::selection 
+    p::selection 
     {
         color: #222;
         background: #D6EDFF;
         text-shadow: none;
     }
 
-    .row h4::selection 
+    .grid::selection 
     {
         color: #222;
         background: #D6EDFF;
@@ -92,6 +92,21 @@
             line-height: 0.6rem;
         }
     }
+
+
+
+    .archives span 
+    {
+        display: inline-block;
+        padding: 0.2rem;
+    }
+
+    .archives a 
+    {
+        padding: 0.2rem;
+    }
+
+
 
 
 

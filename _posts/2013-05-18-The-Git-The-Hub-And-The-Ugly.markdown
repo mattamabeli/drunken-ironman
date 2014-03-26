@@ -3,6 +3,7 @@ layout: post
 title:  "The Git, The Hub, And The Ugly"
 date:   2013-05-18 0:18:15
 categories: tech how-to
+author: Matt Sheehan
 ---
 
 

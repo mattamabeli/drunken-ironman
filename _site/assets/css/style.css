@@ -1,130 +1,180 @@
-html, body, div, span, applet,
-object, iframe, h1, h2, h3, h4,
-h5, h6, p, blockquote, pre, a,
-abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd,
-q, s, samp, small, strike, strong,
-sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption,
-tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details,
-embed, figure, figcaption, footer,
-header, hgroup, menu, nav, output,
-ruby, section, summary, time, mark,
-audio, video {
-	font: inherit;
-	font-size: 100%;
-	vertical-align: baseline;
+
+a 
+{
+    color: #57A3E8;
+    text-decoration: none;
+    
+    -webkit-transition: color ease 0.2s;
+    -moz-transition: color ease 0.2s;
+    transition: color ease 0.2s;
 }
 
-html {
-	line-height: 1em;
+    a:hover 
+    {
+        color: #222;
+        text-shadow: none;
+    }
+
+    a::selection 
+    {
+        color: #222;
+        background: #D6EDFF;
+        text-shadow: none;
+    }
+    
+    p::selection 
+    {
+        color: #222;
+        background: #D6EDFF;
+        text-shadow: none;
+    }
+
+    .grid::selection 
+    {
+        color: #222;
+        background: #D6EDFF;
+        text-shadow: none;
+    }
+
+
+.posts
+{
+	/*list-style-type: none;*/
+    margin-bottom: 1rem;
+    text-align: left;
+    /*letter-spacing: 1px;*/
 }
 
-article, aside, details,
-figcaption, figure, footer,
-header, hgroup, menu, nav,
-section, summary {
-	display: block;
+
+.list 
+{
+    margin-bottom: 3rem;
+    text-align: center;
 }
 
-blockquote{
-	background-color: #2C3E50;
-	color: white;
-	font-size: 12px;
+
+.relatedposts 
+{
+    border-bottom: 1px solid #555;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    padding: .4rem .6rem;
+    display: inline-block;
+    margin-bottom: 2rem;
 }
 
-#quote{
-	background-color: white;
-	font-size: 14px;
-	color: gray;
+    .relatedposts:last-of-type 
+    {
+        border-bottom: none;
+    }
+
+
+
+
+.author 
+{
+    margin: 0;
 }
 
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    .author p 
+    {
+        margin: 1rem 0;
+        line-height: 1rem;
+        font-style: italic;
+        color: #BBC7CC;
+    }
+
+    @media (min-width: 40rem) 
+    {
+        .author p 
+        {
+            line-height: 0.6rem;
+        }
+    }
+
+
+
+    .archives span 
+    {
+        display: inline-block;
+        padding: 0.2rem;
+    }
+
+    .archives a 
+    {
+        padding: 0.2rem;
+    }
+
+
+
+
+
+/***************************************Background Images*****************************/
+
+
+.right-arrow 
+{
+    background: url(../images/right_arrow.svg) no-repeat;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
-body {
-	-webkit-font-smoothing: antialiased;
-	font-family: "Droid Sans", freight-sans-pro, sans-serif;
-	color: #404956;
-	font-size: 17px;
-	line-height: 1.5em;
-	margin: 15px;
-	font-weight: 500;
+
+.left-arrow 
+{
+    background: url(../images/left_arrow.svg) no-repeat;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
-a {
-	text-decoration: none;
-	color: #34495e;
+
+
+
+/****************************************Animations***********************************/
+
+.megaman 
+{
+	background: url(../images/megamanwalking.png) no-repeat;
+	width: 100px;
+	height: 205px;
 }
 
-p a {
-	color: #2980b9;
+
+.animated {
+  -webkit-animation: walk .8s steps(4) infinite;
+  -moz-animation: walk .8s steps(4) infinite;
+  -ms-animation: walk .8s steps(4) infinite;
+  -o-animation: walk .8s steps(4) infinite;
+  animation: walk .8s steps(4) infinite;
 }
 
-a:hover {
-	color: #95a5a6;
+@-webkit-keyframes walk {
+  from { background-position:  0%; }
+  to { background-position: -387px; }
+}
+@-moz-keyframes walk {
+  from { background-position:  0px; }
+  to { background-position: -387px; }
+}
+@-ms-keyframes walk {
+  from { background-position:  0px; }
+  to { background-position: -387px; }
+}
+@-o-keyframes walk {
+  from { background-position:  0px; }
+  to { background-position: -387px; }
+}
+@keyframes walk {
+  from { background-position:  0px; }
+  to { background-position: -387px; }
 }
 
-h2 {
-	font-weight: bold;
-	font-size: 1em;
-	margin: 2.5em 0em 0em;
-	letter-spacing: 1px;
-}
 
-p {
-	margin-bottom: 1em;
-}
 
-.head {
-	max-width: 90%;
-	margin: 2em auto 3em;
-	text-align: center;
-	letter-spacing: 1px;
-}
-
-.footer {
-	text-align: center;
-	font-size: .9em;
-	color: #aaa;
-	margin: 4em 0em 0em 0em;
-}
-
-img {
-	max-width: 100%;
-}
-
-.content {
-	max-width: 600px;
-	margin: 50px auto 100px;
-	width: 100%;
-}
-
-strong {
-	font-weight: 900;
-}
-
-em {
-	font-style: italic;
-}
-
-.small{
-	font-size: 12px;
-}
-
-.posts{
-	list-style-type: none;
-	letter-spacing: 1px;
-	text-align: center;
-	max-width: 90%;
-}
-
-.circular {
+/*.circular {
 	width: 150px;
 	height: 150px;
 	border-radius: 150px;
@@ -136,4 +186,5 @@ em {
 .circular img {
 	opacity: 0;
 	filter: alpha(opacity=0);
-	}
+	}*/
+ 

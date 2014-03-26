@@ -1,4 +1,4 @@
 drunken-ironman
 ===============
 
-small jekyll blog
+piece of shit jekyll blog, hosted through this github page

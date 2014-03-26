@@ -1,45 +1,19 @@
-{% include header.html %}
+<!doctype html>
+<html lang="en">
+
+{% include meta.html %}
+
+<body>
+
+	{% include header.html title=page.phrase %}
 
 <section class="grid">
-    <div class="container">
 
-        <div class="row">
-
-            {% for post in paginator.posts %}
-
-            <div class="container list">
-                <a href="{{ post.url }}">{{ post.title }}</a><br />
-                <span>{{ post.date | date_to_string }}</span>
-                <hr />
-            </div>
-
-            {% endfor %}
-
-        </div>
-
-
-        <div class="column full">
-
-            {% if paginator.previous_page_path %}
-
-            <a href="{{ paginator.previous_page_path }}" class="button circle left-arrow" >
-            </a>
-
-            {% endif %}
-
-
-
-            {%if paginator.next_page_path %}
-
-            <a href="{{ paginator.next_page_path }}" class="button circle right-arrow">
-            </a>
-
-            {% endif %}
-
-        </div>
-
-
-    </div>
+	{{ content }} 
+	  
 </section>
 
 {% include footer.html %}
+
+</body>
+</html>

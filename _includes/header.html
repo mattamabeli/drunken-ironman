@@ -1,37 +1,10 @@
-﻿<!DOCTYPE html>
-<html>
-
-<head>
-
-    <!-- Basic page stuff -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>{{ page.title }}</title>
-    <meta name="description" content="Personal site for Matt Sheehan" />
-
-    <!-- Enables use of media queries for cross-device layouts -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/grid.css" />
-    <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-
-</head>
-
-<body>
-    <header class="clearfix">
-        <div class="container">
-            <div class="intro">
-                <a href="/">
-                    <h1>
-                        MATT SHEEHAN
-                    </h1>
-                </a>
-                <p>
-                    Software Developer, Capitalist
-                </p>
-            </div>
-        </div>
-    </header>
+<header class="clearfix">
+    <div class="container">
+        <div class="intro">
+            <a href="/">
+                <h1>MATT SHEEHAN</h1>            
+            </a>            
+            <p>{{ include.title }}</p>
+         </div>    
+     </div>
+ </header>

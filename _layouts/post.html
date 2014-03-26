@@ -1,74 +1,86 @@
-{% include header.html %}
+<!doctype html>
+<html>
 
-<section class="grid">
-    <div class="container">
+    {% include meta.html %}
 
-        <div class="row clearfix">
+<body>
 
-            <div class="column full">
-
-                <h2>{{ page.title }}</h2>
-                
-                <hr />
+    {% include header.html title=page.phrase %}
 
 
-                <div class="posts">
-                    {{ content }}
-                </div>
+    <section class="grid">
+        <div class="container">
 
-
-                <hr />
-
-            </div>
-
-
-            <div class="row author">
-                <div class="column full">
-                    <h4>{{ page.date | date_to_string }}</h4>
-                </div>
+            <div class="row clearfix">
 
                 <div class="column full">
-                    <h4>Written and Published by Matt Sheehan</h4>
+
+                    <h2>{{ page.title }}</h2>
+
+                    <hr />
+
+
+                    <div class="posts">
+                        {{ content }}
+                    </div>
+
+
+                    <hr />
+
                 </div>
 
-                <div class="column full">
-                    <p>Capitalist, camping enthusiast, and tasteless programmer.</p>
-                    <p class="italic">Warning: I am clueless about what I'm talking about</p>
+
+                <div class="row author">
+                    <div class="column full">
+                        <h4>{{ page.date | date_to_string }}</h4>
+                    </div>
+
+                    <div class="column full">
+                        <h4>Written and Published by {{ page.author }}</h4>
+                    </div>
+
+                    <div class="column full">
+                        <p>Capitalist, camping enthusiast, and tasteless programmer.</p>
+                        <p class="italic">Warning: I am clueless about what I'm talking about</p>
+                    </div>
                 </div>
+
             </div>
 
         </div>
+    </section>
 
-    </div>
-</section>
+    <section class="grid">
+        <div class="container posts">
 
-<section class="grid">
-    <div class="container posts">
+            <div class="row clearfix">
 
-        <div class="row clearfix">
+                <div class="column full">
+                    <p>Related Posts</p>
+                </div>
 
-            <div class="column full">
-                <p>Related Posts</p>
-            </div>
+                <div class="column full">
+                    <ul>
 
-            <div class="column full">
-                <ul>
+                        {% for post in site.related_posts%}
 
-                    {% for post in site.related_posts%}
+                        <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
 
-                    <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </li>
+                        {% endfor %}
 
-                    {% endfor %}
+                    </ul>
+                </div>
 
-                </ul>
             </div>
 
         </div>
-
-    </div>
-</section>
+    </section>
 
 
-{% include footer.html %}
+    {% include footer.html %}
+
+
+</body>
+</html>

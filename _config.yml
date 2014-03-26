@@ -2,3 +2,4 @@ name: The Web Home of Matt Sheehan
 pygments: true
 paginate: 5
 paginate_path: "journal/page:num"
+permalink: /archives/:title

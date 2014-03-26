@@ -3,6 +3,7 @@ layout: post
 title:  "What I've Learned So Far"
 date:   2013-05-25 0:18:15
 categories: tech work
+author: Matt Sheehan
 ---
 
 

@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+
+    <head>
+    <title>The Git, The Hub, And The Ugly</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+    <meta name="description" content="Personal site for Matt Sheehan" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/grid.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+</head>
+
+<body>
+
+    <header class="clearfix">
+    <div class="container">
+        <div class="intro">
+            <a href="/">
+                <h1>MATT SHEEHAN</h1>            
+            </a>            
+            <p></p>
+         </div>    
+     </div>
+ </header>
+
+
+    <section class="grid">
+        <div class="container">
+
+            <div class="row clearfix">
+
+                <div class="column full">
+
+                    <h2>The Git, The Hub, And The Ugly</h2>
+
+                    <hr />
+
+
+                    <div class="posts">
+                        <p>It&#8217;s funny how your opinion about things can change. I didn&#8217;t like GitHub when I first signed up for a few good reasons.</p>
+
+<ul>
+<li>It sucked on Windows.</li>
+
+<li>There was no single good source about how to use GitHub on Linux Even the Github help pages weren&#8217;t that useful unless you manage to piecemeal it all together (which I eventually did). I must admit though, now that I know how to use GitHub on Linux, It&#8217;s amazing. It&#8217;s seriously one of the most useful tools that a software developer could use for version control and <em>forking</em> others code. I am a big fan of this open source movement. So in order to help all you wary travellers out there who want to become a part of this, let me blaze a single trail here where you can refer back to the basics of using the git command and GitHub.</li>
+</ul>
+
+<ol>
+<li>
+<p>Before we start make sure you have git installed. If your using a Debian based operating system (I&#8217;m using Mint which you can check out <a href='http://www.linuxmint.com/'>here</a>) it might already be installed. If not, the easiest way to do this is to type the following into the terminal.</p>
+
+<blockquote>
+<p>apt-get install git</p>
+</blockquote>
+
+<p>Then to configure it type</p>
+
+<blockquote>
+<p>git config &#8211;global user.name &#8221; <em>This is where you put your username</em> &#8221;</p>
+</blockquote>
+
+<p>and</p>
+
+<blockquote>
+<p>git config &#8211;global user.email &#8221; <em>This is where you put your email</em> &#8221;</p>
+</blockquote>
+
+<p>The first line installs git and the next two just configure the settings to remember your name and email.</p>
+</li>
+
+<li>
+<p>Now is when we can actually go ahead and start using GitHub. Login and create a new repository.</p>
+</li>
+
+<li>
+<p>Once a new repository is created, clone that repository onto your computer by entering</p>
+
+<blockquote>
+<p>git clone https://This is the repository address</p>
+</blockquote>
+
+<p>into the terminal.</p>
+</li>
+
+<li>
+<p>CD into the repository</p>
+
+<blockquote>
+<p>cd ~/new repository</p>
+</blockquote>
+</li>
+
+<li>
+<p>Now you can add things to that directory from your project. Once new files are added to the directory and your ready to upload type</p>
+
+<blockquote>
+<p>git add .</p>
+</blockquote>
+
+<p>which will prepare GitHub for all the new files you&#8217;ve just added.</p>
+</li>
+
+<li>
+<p>Next you want to commit your updated directory, type</p>
+
+<blockquote>
+<p>git commit -m &#8220;Put whatever commit message you want here&#8221;</p>
+</blockquote>
+</li>
+
+<li>
+<p>Finally push ( <em>upload</em> ) the directory back to GitHub</p>
+
+<blockquote>
+<p>git push origin master</p>
+</blockquote>
+
+<p>If you&#8217;re pushing to a different branch (for example you&#8217;re using <a href='https://help.github.com/categories/20/articles'>pages</a>), then just type</p>
+
+<blockquote>
+<p>git push origin gh-pages or whatever your branch is</p>
+</blockquote>
+</li>
+</ol>
+
+<p>That&#8217;s really all you need to know to get started. So go get coding, you could even fork this blog from my github page (that&#8217;s like creating a new repository).</p>
+
+<h4 id='word_of_the_day_pithy'>Word of the day: <strong>pithy</strong></h4>
+
+<h4 id='quote_of_the_day'>Quote of the day:</h4>
+<blockquote>
+	<p>“Either write something worth reading or do something worth writing.”</p>
+	<cite>-Benjamin Franklin</cite>
+</blockquote>
+                    </div>
+
+
+                    <hr />
+
+                </div>
+
+
+                <div class="row author">
+                    <div class="column full">
+                        <h4>18 May 2013</h4>
+                    </div>
+
+                    <div class="column full">
+                        <h4>Written and Published by Matt Sheehan</h4>
+                    </div>
+
+                    <div class="column full">
+                        <p>Capitalist, camping enthusiast, and tasteless programmer.</p>
+                        <p class="italic">Warning: I am clueless about what I'm talking about</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="grid">
+        <div class="container posts">
+
+            <div class="row clearfix">
+
+                <div class="column full">
+                    <p>Related Posts</p>
+                </div>
+
+                <div class="column full">
+                    <ul>
+
+                        
+
+                        <li>
+                            <a href="/archives/Setup">Battle Stations</a>
+                        </li>
+
+                        
+
+                        <li>
+                            <a href="/archives/Drunken-Ironman">Drunken Ironman</a>
+                        </li>
+
+                        
+
+                        <li>
+                            <a href="/archives/Checkout-The-Sprite">Checkout The Sprite</a>
+                        </li>
+
+                        
+
+                        <li>
+                            <a href="/archives/What-I%27ve-Learned-So-Far">What I've Learned So Far</a>
+                        </li>
+
+                        
+
+                        <li>
+                            <a href="/archives/Graduation">Graduation</a>
+                        </li>
+
+                        
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+    <div class="container">
+
+        <div class="column full">
+
+            <footer>
+
+                <a href="/about">About Me</a><br />
+                <a href="/archives">Archives</a><br />
+
+            </footer>
+
+        </div>
+
+    </div>
+</section>
+
+
+</body>
+</html>

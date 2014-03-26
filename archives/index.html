@@ -1,0 +1,26 @@
+---
+layout: default
+title: archives
+phrase: Totally 90's Weekend
+---
+
+
+<!--<div class="container">-->
+
+    <div class="column full">
+
+        <center>
+            <div class="megaman animated"></div>
+        </center>
+
+        {% for post in site.posts %}
+
+        <div class="archives column full">
+            <span>{{ post.date | date_to_string }}</span><a href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+<!--</div>-->

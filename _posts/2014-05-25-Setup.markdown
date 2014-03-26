@@ -3,6 +3,8 @@ layout: post
 title:  "Battle Stations"
 date:   2014-03-22 0:04:28
 categories: journal
+author: Matt Sheehan
+phrase: "Firing my lasers!"
 ---
 
 
