@@ -92,6 +92,15 @@ header a
     text-decoration: underline;
 }
 
+
+
+
+footer
+{
+    padding: 3rem;
+}
+
+
 .mobile 
 {
     margin: 0 auto;
