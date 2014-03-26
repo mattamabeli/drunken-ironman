@@ -8,15 +8,21 @@ phrase: Software Developer, Capitalist
     <div class="column full">
 
     {% for post in paginator.posts limit: 20% %}
-    	<div class="container list">
+    	
+        <div class="container list">
 
 			<a href="{{ post.url }}">{{ post.title }}</a><br />
-			<span>{{ post.date | date_to_string }}</span>
-            	<div class="posts">
-            		<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-            	</div>            
-            <hr />        
+			
+            <span>{{ post.date | date_to_string }}</span>
+        
+        	<div class="posts">
+            	<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+            </div>  
+
+            <hr />
+
         </div>
+
     {% endfor %}
 
     </div>
@@ -27,13 +33,13 @@ phrase: Software Developer, Capitalist
 
     {% if paginator.previous_page_path %}
 
-       <a href="{{ paginator.previous_page_path }}" class="button circle left-arrow"/>
+       <a href="{{ paginator.previous_page_path }}" class="button circle left-arrow"></a>
 
     {% endif %}
 
     {% if paginator.next_page_path %}
 
-        <a href="{{ paginator.next_page_path }}" class="button circle right-arrow" />
+        <a href="{{ paginator.next_page_path }}" class="button circle right-arrow"></a>
 
     {% endif %}
 
